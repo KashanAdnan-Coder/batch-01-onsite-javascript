@@ -165,26 +165,26 @@
 // KASHAN upper case string
 // kashan lower case string
 
-var name = "adnan"
-var name2 = "KASHAN"
-console.log(name.toUpperCase());
-console.log(name2.toLowerCase());
+// var name = "adnan"
+// var name2 = "KASHAN"
+// console.log(name.toUpperCase());
+// console.log(name2.toLowerCase());
 
 // console.log(text.toLowerCase());
 // console.log(name.toUpperCase());
 
-var nam3 = "       Kashan    " // trim() start ya end  spaces remove spaces
-console.log(nam3.trim());
-console.log(nam3.trimEnd());
-console.log(nam3.trimStart());
+// var nam3 = "       Kashan    " // trim() start ya end  spaces remove spaces
+// console.log(nam3.trim());
+// console.log(nam3.trimEnd());
+// console.log(nam3.trimStart());
 // console.log(text.trim());
 // console.log(text.trimEnd());
 // console.log(name + text);
 // var text = "5";
 // padStart
 var text = "5"; // lenght 4 add 0
-console.log(text.padStart(15, "0"));
-console.log(text.padEnd(15, "0"));
+// console.log(text.padStart(15, "0"));
+// console.log(text.padEnd(15, "0"));
 
 // text = text.padStart(4, "y");
 // console.log(text);
@@ -196,22 +196,22 @@ console.log(text.padEnd(15, "0"));
 // console.log(text2);
 
 // Repeat Method
+// 
+// var text = "kashan"
 
-var text = "kashan"
-
-console.log(text.repeat(4))
-
-var text = "Wasay is a good boy"
+// console.log(text.repeat(4))
+// 
+// var text = "Wasay is a good boy"
 // Replaces Method 
-text.replace("Wasay", "Kashan")
-console.log(text.replace("Wasay", "Kashan"));
+// text.replace("Wasay", "Kashan")
+// console.log(text.replace("Wasay", "Kashan"));
 // Finding Value // Replacing Value
 
 
 
 // var text = "kashanis-a-gootry {
 
-var text = "Apple, Banana, Kiwi"
+// var text = "Apple, Banana, Kiwi"
 
 // Substr Method Depreciated substring
 
@@ -225,9 +225,9 @@ var text = "Apple, Banana, Kiwi"
 // syntax (tareeka)
 // 1. Varible Declare 2. Condition Check  3. Increment Varible
 
-for (var i = 0; i < 10; i++) {
-    console.log(i);
-}
+// for (var i = 0; i < 10; i++) {
+//     console.log(i);
+// }
 
 
 // Flags Varibles
@@ -335,8 +335,23 @@ for (var i = 0; i < 10; i++) {
 // console.log(text2)
 
 // JavaScript Math methods
-// ceil() floor() round() random()
+// ceil() floor() round() random() 4 methods
 
-// var num1 = 3.99
-// var num2 = 4.28
-// var num3 = 6.56
+var num1 = 3.99
+var num2 = 4.28
+var num3 = 699.40
+// console.log(Math.ceil(num1)); // ceiling (zyada)
+// console.log(Math.floor(num2)); // floor (kam)
+// console.log(Math.round(num3)); // Round figure
+
+
+var num1 = Math.round(Math.random() * 1000000)
+console.log(num1);
+
+var num2 = + prompt("Enter any number between 0 and 1000000")
+if (num2 == num1) {
+    alert("You are correct")
+}
+else{
+    alert("You are wrong")
+}
