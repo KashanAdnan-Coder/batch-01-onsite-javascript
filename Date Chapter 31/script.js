@@ -2,7 +2,7 @@
 
 // new Date() Method 
 
-var date = new Date()
+var date = new Date() // --> Get the current Date
 
 // getDay() 
 
