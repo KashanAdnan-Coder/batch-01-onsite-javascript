@@ -43,5 +43,3 @@ console.log(time)
 var date_updated = new Date("Janurary 2, 2011")
 
 console.log(date_updated)
-
- 
