@@ -39,7 +39,8 @@
 let array = ["Kashan", "Fatima", "Adnan"]
 let i = 0
 while (i < 2) {
-    if (array[i] == "Fatima") {
+    if (array[i] == "Adnan") {
+      console.log();
       
     }
     i++

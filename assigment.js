@@ -6,3 +6,9 @@
 
 // Hint : https://github.com/KashanAdnan-Coder/Javascript/tree/main/Date%20Chapter%2031
 
+
+// write a line 
+// jo array ke element ka index bataye 
+// abhi humlogon ne fatima ko dhonda 
+// to fatima ka index ana chahiye
+// agar hum Kashan check karen to kashan ka  index aye
